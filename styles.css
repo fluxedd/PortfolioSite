@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Manrope-Regular;
+  src: url("fonts/Manrope-Regular.ttf");
+}
+
+@font-face {
+  font-family: Manrope-Bold;
+  src: url("fonts/Manrope-Bold.ttf");
+}
+
 /* start of styles */
 body {
   background-color: #141111;
@@ -34,7 +44,7 @@ body {
   font-size: 22px;
   margin-left: 65px;
   margin-right: 65px;
-  font-family: Manrope;
+  font-family: Manrope-Bold;
   font-weight: bold;
 }
 
@@ -68,7 +78,7 @@ body {
 
 /* home main */
 .greeting {
-  font-family: Manrope;
+  font-family: Manrope-Bold;
   color: whitesmoke;
   display: flex;
   justify-content: center;
@@ -133,7 +143,7 @@ body {
 
 .projects-list h1 {
   color: whitesmoke;
-  font-family: Manrope;
+  font-family: Manrope-Bold;
   text-shadow: 4px 0px 0px rgba(0, 0, 0, 0.3);
   margin-bottom: 10px;
   font-size: 21px;
@@ -141,6 +151,6 @@ body {
 
 .projects-list p {
   color: #9d9d9d;
-  font-family: Manrope;
+  font-family: Manrope-Regular;
   font-size: 15px;
 }
