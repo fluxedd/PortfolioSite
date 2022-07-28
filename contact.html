@@ -7,9 +7,13 @@
     <title>Mark - Contact</title>
     <link rel="icon" href="img/icon.png" type="image/png" sizes="16x16" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <div id="particles-js"></div>
+    <a href="#"
+      ><img src="img/toggle.png" alt="toggle" width="33px" id="toggle"
+    /></a>
     <nav class="nav-bar">
       <div class="nav-container">
         <ul class="nav-list">
@@ -18,14 +22,22 @@
           <li><a href="contact" class="hover">Contact</a></li>
           <li>
             <a href="https://github.com/fluxedd/" target="_blank"
-              ><img src="img/github-icon.svg" alt="github-icon" width="31px"
+              ><img
+                src="img/github-icon.svg"
+                alt="github-icon"
+                width="31px"
+                id="github-toggle"
             /></a>
           </li>
           <li>
             <a
               href="https://www.linkedin.com/in/mark-miranda-b9a121225/"
               target="_blank"
-              ><img src="img/linkedin-icon.svg" alt="github-icon" width="31px"
+              ><img
+                src="img/linkedin-icon.svg"
+                alt="linkedin-icon"
+                width="31px"
+                id="linkedin-toggle"
             /></a>
           </li>
         </ul>
@@ -37,15 +49,15 @@
         <hr class="line" />
         <p style="margin-bottom: 10px">mmiranda2@academic.rrc.ca</p>
         <a href="mailto: mmiranda2@academic.rrc.ca">
-          <img src="img/email-icon.png" alt="email-icon" width="30px"
+          <img
+            src="img/email-icon.png"
+            alt="email-icon"
+            width="30px"
+            id="mail-toggle"
         /></a>
       </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script>
-      particlesJS.load("particles-js", "particles.json", function () {
-        console.log("success");
-      });
-    </script>
+    <script src="lightswitch.js"></script>
   </body>
 </html>
